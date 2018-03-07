@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { ImageUploadModule } from "angular2-image-upload";
 
 ///// Start FireStarter
 var config = {
@@ -52,7 +51,7 @@ import { AngularFirestoreModule } from 'angularfire2/firestore';
     UiModule,
     NotesModule,
     AngularFireModule.initializeApp(firebaseConfig),
-    ImageUploadModule.forRoot(),
+  
   ],
   bootstrap: [
     AppComponent,
